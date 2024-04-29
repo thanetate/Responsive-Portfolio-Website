@@ -1,0 +1,585 @@
+@import url('https://fonts.cdnfonts.com/css/monaco');
+
+* {
+    font-family: 'Monaco', sans-serif;
+    background-color: #282a36;
+}
+
+/* Iphone */
+.main {
+    position: relative;
+    top: 100px;
+    padding-left: 50px;
+    padding-top: 200px;
+    align-items: center;
+    height: 50vh;
+}
+
+.main-container .intro {
+    text-align: left;
+    font-size: 10px;
+    color: #50fa7b;
+    line-height: 1.5; 
+}
+
+.main-container .name {
+    font-size: 15px;
+    color: #f8f8f2;
+    line-height: 1.5;
+}
+
+.main-container .summary {
+    margin-right: 50px;
+    font-size: 10px;
+    color: #6272a4;
+    line-height: 1.5;
+}
+
+.NavBarLinks .github img{
+    position: absolute;
+    top: 50px;
+    right: 125px;
+    width: 35px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.NavBarLinks .github:hover img {
+    transform: scale(1.1);
+}
+
+.NavBarLinks .linkedin img{
+    position: absolute;
+    top: 50px;
+    right: 85px;
+    width: 36px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.NavBarLinks .linkedin:hover img {
+    transform: scale(1.1);
+}
+
+.NavBarLinks .resume img{
+    position: absolute;
+    top: 51px;
+    right: 50px;
+    width: 35px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.NavBarLinks .resume:hover img {
+    transform: scale(1.1);
+}
+
+.main .main-container .arrow {
+    color: #8be9fd;
+    position: absolute;
+    top: 600px;
+    left: 100px;
+    width: 0;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 2px;
+    animation: jumpInfinite 1.5s infinite;
+  }
+  
+.main .main-container .arrow:after {
+    color: #8be9fd;
+    content: " ";
+    position: absolute;
+    top: 12px;
+    left: -10px;
+    width: 16px;
+    height: 16px;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    border-radius: 4px;
+    transform: rotateZ(45deg);
+}
+  
+@keyframes jumpInfinite {
+    0% {
+      margin-top: 0;
+    }
+    50% {
+      margin-top: 20px;
+    }
+    100% {
+      margin-top: 0;
+    }
+}
+
+.projects {
+    position: relative;
+    margin-top: 300px;
+}
+
+.projects .projects-title {
+    color:#50fa7b;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.projects .project-1 {
+    border-style: double;
+    border-width: 5px;
+    border-color: #44475a;
+    border-radius: 10px;
+    padding: 5px;
+
+    background-color: #44475a;
+    color:#f8f8f2;
+    font-size: 10px;
+    line-height: 1.8;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.projects .project-2 {
+    border-style: double;
+    border-width: 5px;
+    border-color: #44475a;
+    border-radius: 10px;
+    padding: 5px;
+
+    background-color: #44475a;
+    color:#f8f8f2;
+    font-size: 10px;
+    line-height: 1.8;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.projects .project-3 {
+    border-style: double;
+    border-width: 5px;
+    border-color: #44475a;
+    border-radius: 10px;
+    padding: 5px;
+
+    background-color: #44475a;
+    color:#f8f8f2;
+    font-size: 10px;
+    line-height: 1.8;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.projects .project-1 li:last-child {
+    background-color: #44475a;
+    padding: 5px;
+    color: #bd93f9;
+}
+.projects .project-2 li:last-child {
+    background-color: #44475a;
+    padding: 5px;
+    color: #bd93f9;
+}
+
+.projects .project-3 li:last-child {
+    background-color: #44475a;
+    padding: 5px;
+    color: #bd93f9;
+}
+
+.projects .proj-1-img{
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #8be9fd;
+
+}
+
+.projects .proj-1-img img {
+    width: 25px;
+    height: auto;
+    margin-left: 50px;
+    margin-right: 5px;
+}
+
+.projects .proj-2-img{
+    margin: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #8be9fd;
+}
+
+.projects .proj-2-img img{
+    width: 25px;
+    height: auto;
+
+    margin-left: 50px;
+    margin-right: 5px;
+}
+
+.projects .proj-3-img{
+    position: relative;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    color: #8be9fd;
+}
+
+.projects .proj-3-img img{
+    width: 25px;
+    height: auto;
+
+    margin-left: 50px;
+    margin-right: 5px;
+}
+
+
+.education{
+    margin-top: 40px;
+}
+
+.education .edu-logo{
+    display: flex;
+    background-color: #44475a;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    color: #44475a;
+}
+
+.education .edu-logo img{
+    background-color: #44475a;
+    width: 55px;
+    height: auto;
+}
+
+.education .education-title{
+    color:#50fa7b;
+    font-size: 15px;
+
+    padding-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.education .edu-p{
+    border-style: double;
+    border-width: 5px;
+    border-color: #44475a;
+    border-radius: 10px;
+    
+    padding: 5px;
+    background-color: #44475a;
+    color:#f8f8f2;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.education .edu-school{
+    color: #f8f8f2;
+    background-color: #44475a;
+    font-size: 10px;
+}
+
+.education .edu-date{
+    color: #f8f8f2;
+    background-color: #44475a;
+    font-size: 10px;
+}
+
+.education .edu-certificates{
+    color:#f8f8f2;
+    background-color: #44475a;
+    font-size: 10px;
+}
+
+.certificates .certificates-p{
+    border-style: double;
+    border-width: 5px;
+    border-color: #44475a;
+    border-radius: 10px;
+    
+    padding: 5px;
+    background-color: #44475a;
+    color:#f8f8f2;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.certificates-p .cp{
+    font-size: 10px;
+    background-color: #44475a;
+}
+
+.languages{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.languages .lang-title{
+    color:#50fa7b;
+    font-size: 15px;
+
+    padding-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.languages .lang-content{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.languages .C{
+    border-style: double;
+    border-width: 5px;
+    border-color: #44475a;
+    border-radius: 10px;
+    
+    margin-left: 50px;
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    background-color: #44475a;
+    color:#f8f8f2;
+}
+
+.languages .P{
+    border-style: double;
+    border-width: 5px;
+    border-color: #44475a;
+    border-radius: 10px;
+    
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    background-color: #44475a;
+    color:#f8f8f2;
+}
+
+.languages .Ts{
+    border-style: double;
+    border-width: 5px;
+    border-color: #44475a;
+    border-radius: 10px;
+    
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    background-color: #44475a;
+    color:#f8f8f2;
+}
+
+.languages .Html{
+    border-style: double;
+    border-width: 5px;
+    border-color: #44475a;
+    border-radius: 10px;
+    
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    background-color: #44475a;
+    color:#f8f8f2;
+}
+
+.languages .CSS{
+    border-style: double;
+    border-width: 5px;
+    border-color: #44475a;
+    border-radius: 10px;
+    
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    background-color: #44475a;
+    color:#f8f8f2;
+}
+/*Iphone Design 480px*/
+@media only screen and (max-device-width: 480px) {
+    .proj-2-img{
+        position: absolute;
+        margin-top: 170px;
+    }
+
+    .proj-3-img{
+        position: absolute;
+        margin-top: 640px;
+    }
+}
+
+/*Ipad Design 768px*/
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+
+.main-container{
+    margin-top: 100px;
+}
+
+.main-container .intro{
+    font-size: 15px;
+}
+
+.main-container .name{
+    font-size: 25px;
+}
+
+.main-container .summary{
+    font-size: 15px;
+}
+
+.education{
+    margin-top: 30px;
+}
+
+.projects{
+    margin-top: 400px;
+}
+
+.projects .projects-box .project-3{
+    position: relative;
+}
+}
+
+/*Desktop Design 1000px*/
+@media only screen and (min-width: 1000px){
+
+.main {
+    top:300px;
+    align-items: none;
+    padding-top: 0;
+}
+
+.main-container .intro{
+    font-size: 20px;
+}
+
+.main-container .name{
+    font-size: 30px;
+}
+
+.main-container .summary{
+    font-size: 20px;
+}
+
+.NavBarLinks .linkedin img{
+    width: 60px;
+    height: auto;
+}
+
+.NavBarLinks .github img{
+    width: 60px;
+    height: auto;
+    right: 110px;
+}
+
+.projects .projects-title{
+    margin-top: 450px; 
+    font-size: 20px;
+    border-style: double;
+    border-color: #282a36;
+}
+
+.projects .projects-list{
+   flex-direction: row;
+   align-items: center;
+   display: flex;
+}
+
+.proj-1-img {
+  position: absolute;
+  top: 0px;
+  margin-top: 150px;
+}
+
+.proj-2-img{
+    position: absolute;
+    top: 0;
+    left: 630px;
+  
+}
+
+.proj-3-img{
+    position: absolute;
+    top: 0;
+    
+   
+}
+
+.projects .projects-box{
+    border-color: red;
+    border-style: dotted;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.projects .projects-box .project-1{
+    width: 30%;
+    height: 700px;
+    font-size: 15px;
+}
+.projects .projects-box .project-2{
+    width: 30%;
+    height: 700px;
+    font-size: 15px;
+    margin-top: 0;
+}
+.projects .projects-box .project-3{
+    width: 30%;
+    height: 700px;
+    font-size: 15px;
+    margin-top: 0;
+}
+
+.education{
+    margin-top: 0px;
+}
+
+.education .education-title{
+    font-size: 20px;
+}
+
+.education .edu-p .edu-school,
+.education .edu-p .edu-date,
+.education .edu-p .edu-certificates{
+    font-size: 15px;
+}
+
+.languages{
+    margin-top: 0px;
+}
+
+.languages .lang-title{
+    font-size: 20px;
+}
+
+.languages .lang-content{
+    font-size: 15px;
+}
+
+}
