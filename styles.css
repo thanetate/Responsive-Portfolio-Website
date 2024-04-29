@@ -38,8 +38,8 @@
 .NavBarLinks .github img{
     position: absolute;
     top: 50px;
-    right: 125px;
-    width: 35px;
+    right: 124px;
+    width: 36px;
     height: auto;
     transition: transform 0.3s ease-in-out;
 }
