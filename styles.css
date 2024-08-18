@@ -201,6 +201,7 @@
 }
 
 .projects .proj-1-img {
+	margin-right: 50px;
 	position: relative;
 	display: flex;
 	align-items: center;
@@ -220,6 +221,7 @@
 	display: flex;
 	align-items: center;
 	color: #8be9fd;
+	margin-right: 50px;
 }
 
 .projects .proj-2-img img {
@@ -231,6 +233,7 @@
 }
 
 .projects .proj-3-img {
+	margin-right: 50px;
 	position: relative;
 	margin: 0;
 	display: flex;
