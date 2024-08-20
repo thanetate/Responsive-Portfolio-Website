@@ -499,11 +499,10 @@
 	}
 
 	.projects .projects-title {
-		border-color: red;
-		border-style: double;
 		position: relative;
-		margin-top: 500px;
+		margin-top: 400px;
 		margin-bottom: 0;
+		padding-bottom: 0;
 		font-size: 20px;
 	}
 
@@ -516,7 +515,6 @@
 	.proj-1-img {
 		position: absolute;
 		top: 0px;
-		margin-top: 150px;
 	}
 
 	.proj-2-img {
