@@ -8,9 +8,9 @@
 /* Iphone */
 .main {
 	position: relative;
-	top: 100px;
+	top: 30px;
 	padding-left: 50px;
-	padding-top: 200px;
+	padding-top: 150px;
 	align-items: center;
 	height: 50vh;
 }
@@ -84,7 +84,7 @@
 .main .main-container .arrow {
 	color: #8be9fd;
 	position: absolute;
-	top: 600px;
+	top: 550px;
 	left: 100px;
 	width: 0;
 	height: 30px;
@@ -121,7 +121,7 @@
 
 .projects {
 	position: relative;
-	margin-top: 300px;
+	margin-top: 100px;
 }
 
 .projects .projects-title {
@@ -443,6 +443,12 @@
 	}
 }
 
+@media only screen and (max-width: 760px) {
+	.main .main-container .arrow {
+		top: 400px;
+	}
+}
+
 /*Ipad Design 768px*/
 @media only screen and (min-width: 768px) and (max-width: 1000px) {
 	.main-container {
@@ -476,40 +482,29 @@
 
 /*Desktop Design 1000px*/
 @media only screen and (min-width: 1000px) {
-	.main {
-		top: 300px;
-		align-items: none;
-		padding-top: 0;
+	.main-container {
+		margin-top: 100px;
 	}
 
 	.main-container .intro {
-		font-size: 20px;
+		font-size: 15px;
 	}
 
 	.main-container .name {
-		font-size: 30px;
+		font-size: 25px;
 	}
 
 	.main-container .summary {
-		font-size: 20px;
-	}
-
-	.NavBarLinks .linkedin img {
-		width: 60px;
-		height: auto;
-	}
-
-	.NavBarLinks .github img {
-		width: 60px;
-		height: auto;
-		right: 110px;
+		font-size: 15px;
 	}
 
 	.projects .projects-title {
-		margin-top: 450px;
-		font-size: 20px;
+		border-color: red;
 		border-style: double;
-		border-color: #282a36;
+		position: relative;
+		margin-top: 500px;
+		margin-bottom: 0;
+		font-size: 20px;
 	}
 
 	.projects .projects-list {
@@ -527,7 +522,6 @@
 	.proj-2-img {
 		position: absolute;
 		top: 0;
-		left: 630px;
 	}
 
 	.proj-3-img {
@@ -536,27 +530,24 @@
 	}
 
 	.projects .projects-box {
-		border-color: red;
-		border-style: dotted;
-
 		display: flex;
 		flex-direction: row;
 	}
 
 	.projects .projects-box .project-1 {
-		width: 30%;
-		height: 700px;
+		width: 100vw;
+		height: auto;
 		font-size: 15px;
 	}
 	.projects .projects-box .project-2 {
-		width: 30%;
-		height: 700px;
+		width: 100vw;
+		height: auto;
 		font-size: 15px;
 		margin-top: 0;
 	}
 	.projects .projects-box .project-3 {
-		width: 30%;
-		height: 700px;
+		width: 100vw;
+		height: auto;
 		font-size: 15px;
 		margin-top: 0;
 	}
@@ -571,7 +562,7 @@
 
 	.education .edu-p .edu-school,
 	.education .edu-p .edu-date,
-	.education .edu-p .edu-certificates {
+	.education .edu-p {
 		font-size: 15px;
 	}
 
