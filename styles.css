@@ -87,6 +87,23 @@ body {
 	border-radius: 4px;
 	padding: 4px 4px;
 }
+.export-img {
+	background-color: #44475a;
+	border-radius: 4px;
+	padding: 4px 4px;
+}
+.test-container {
+	position: absolute;
+	top: 10;
+	left: 40px;
+}
+.test-container img {
+	width: 30px;
+	height: 300px;
+}
+.github-container {
+	margin-right: 40px;
+}
 .linkedin-img {
 	background-color: #44475a;
 	border-radius: 4px;
