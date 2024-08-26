@@ -553,6 +553,9 @@ body {
 	.education .edu-p {
 		font-size: 15px;
 	}
+	.education .edu-certificates {
+		font-size: 15px;
+	}
 
 	.languages {
 		margin-top: 0px;
@@ -563,6 +566,9 @@ body {
 	}
 
 	.languages .lang-content {
+		font-size: 15px;
+	}
+	.lang-box {
 		font-size: 15px;
 	}
 }
