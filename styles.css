@@ -372,6 +372,19 @@ body {
 	font-size: 10px;
 	background-color: #44475a;
 }
+.lang-box {
+	border-width: 5px;
+	border-color: #44475a;
+	border-radius: 4px;
+	padding: 10px;
+	background-color: #44475a;
+	color: #f8f8f2;
+	font-size: 10px;
+	line-height: 1.8;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 20px;
+}
 
 .languages {
 	margin-top: 20px;
@@ -398,88 +411,6 @@ body {
 	margin-right: 50px;
 }
 
-.languages .C {
-	border-style: double;
-	border-width: 5px;
-	border-color: #44475a;
-	border-radius: 4px;
-	width: auto;
-	height: 20px;
-
-	margin-right: 0px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-
-	background-color: #44475a;
-	color: #f8f8f2;
-}
-
-.languages .P {
-	border-style: double;
-	border-width: 5px;
-	border-color: #44475a;
-	border-radius: 4px;
-	width: auto;
-	height: 20px;
-
-	margin-left: 10px;
-	margin-right: 0px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-
-	background-color: #44475a;
-	color: #f8f8f2;
-}
-
-.languages .Ts {
-	border-style: double;
-	border-width: 5px;
-	border-color: #44475a;
-	border-radius: 4px;
-	width: auto;
-	height: 20px;
-	margin-left: 10px;
-	margin-right: 0px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-
-	background-color: #44475a;
-	color: #f8f8f2;
-}
-
-.languages .Html {
-	border-style: double;
-	border-width: 5px;
-	border-color: #44475a;
-	border-radius: 4px;
-	width: auto;
-	height: 20px;
-
-	margin-left: 10px;
-	margin-right: 0px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-
-	background-color: #44475a;
-	color: #f8f8f2;
-}
-
-.languages .CSS {
-	border-style: double;
-	border-width: 5px;
-	border-color: #44475a;
-	border-radius: 4px;
-	width: auto;
-	height: 20px;
-
-	margin-left: 10px;
-	margin-right: 0px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-
-	background-color: #44475a;
-	color: #f8f8f2;
-}
 /*Iphone Design 480px*/
 @media only screen and (max-device-width: 480px) {
 	.proj-2-img {
