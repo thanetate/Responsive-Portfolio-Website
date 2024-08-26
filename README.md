@@ -1,6 +1,6 @@
 # Responsive-Portfolio-Website
 
-https://thane-tate.vercel.app/
+https://thanetate.com/
 
 Check out my portfolio website, influenced by the minimalist "Dracula" VS Code theme. I've designed it with simplicity in mind, the clean lines and straightforward layout reflect my commitment to a user-friendly experience. The code, inspired by Dracula's dark elegance, showcases my skills in a straightforward manner. Explore the synergy of technology and artistry on this virtual canvas—a testament to my dedication to simplicity and functionality.
 
