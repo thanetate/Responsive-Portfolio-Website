@@ -225,18 +225,18 @@ body {
 	margin-top: 0;
 	margin-bottom: 20px;
 }
-.projects .project-1 li:last-child {
+.projects .project-1 li {
 	background-color: #44475a;
 	margin-top: 10px;
 	color: #bd93f9;
 }
-.projects .project-2 li:last-child {
+.projects .project-2 li {
 	background-color: #44475a;
 	margin-top: 10px;
 	color: #bd93f9;
 }
 
-.projects .project-3 li:last-child {
+.projects .project-3 li {
 	background-color: #44475a;
 	margin-top: 10px;
 	color: #bd93f9;
@@ -290,6 +290,111 @@ body {
 	margin-right: 10px;
 }
 
+/*Project Demo Video CSS*/
+
+/*Phone*/
+@media only screen and (max-width: 760px) {
+	.projects .proj1inside {
+		display: none;
+	}
+	.projects .proj1-demo-box {
+		cursor: pointer;
+		display: flex;
+		border-width: 5px;
+		border-color: #44475a;
+		background-color: #44475a;
+		padding: 10px;
+		border-radius: 4px;
+		color: #f8f8f2;
+		font-size: 10px;
+		line-height: 1.8;
+		margin-left: 30px;
+		margin-right: 30px;
+		margin-bottom: 20px;
+	}
+	.proj1-demo {
+		border-radius: 4px;
+	}
+	.projects .proj1-demo-container {
+		display: none;
+		justify-content: center;
+		align-items: center;
+		border-width: 5px;
+		border-color: #44475a;
+		background-color: #44475a;
+		padding: 10px;
+		border-radius: 4px;
+		color: #f8f8f2;
+		font-size: 10px;
+		line-height: 1.8;
+		margin-left: 30px;
+		margin-right: 30px;
+		margin-bottom: 20px;
+	}
+}
+/*Tablet*/
+@media only screen and (min-width: 760px) and (max-width: 1000px) {
+	.proj1-demo-box {
+		display: none;
+	}
+	.proj1-demo-container {
+		display: none;
+	}
+	.proj1-demo {
+		display: none;
+	}
+	.projects .project-1 {
+		width: auto;
+		height: 420px;
+	}
+	.projects .project-1 p {
+		flex: 1;
+		margin-right: 220px;
+	}
+	.project-1 li {
+		margin-bottom: 160px;
+		margin-right: 220px;
+	}
+	.proj1inside {
+		border-radius: 4px;
+		position: absolute;
+		top: 120px;
+		right: 0;
+		margin-right: 50px;
+	}
+}
+/*Desktop*/
+@media only screen and (min-width: 1000px) {
+	.proj1-demo-box {
+		display: none;
+	}
+	.proj1-demo-container {
+		display: none;
+	}
+	.projects .project-1 {
+		width: auto;
+		height: 520px;
+	}
+	.projects .project-1 p {
+		flex: 1;
+		margin-right: 280px;
+	}
+	.project-1 li {
+		margin-right: 280px;
+	}
+	.proj1inside {
+		width: auto;
+		height: 500px;
+
+		border-radius: 4px;
+		position: absolute;
+		top: 140px;
+		right: 0;
+		margin-right: 50px;
+	}
+}
+
+/*Education Section*/
 .education {
 	margin-top: 40px;
 }
@@ -523,8 +628,6 @@ body {
 	}
 
 	.projects .projects-box .project-1 {
-		width: 100vw;
-		height: auto;
 		font-size: 15px;
 	}
 	.projects .projects-box .project-2 {

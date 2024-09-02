@@ -88,10 +88,39 @@
             <div class="project-1">
                 <div class="proj-1-redirection-container">
                 </div>
-                I designed and developed a fully functional e-commerce website for a climbing clothing brand "Theory Climbing" from scratch using new technologies like Next.js, TypeScript, MongoDB, and Paypal's API. I have been a devoted climber for 6 years now and my friends and I have always wanted to create a climbing related clothing brand. Using my knowledge from University, I thought it would be a great idea to try and build a website myself. The website features a dynamic and fully responsive product page, secure user authentication, shopping cart functionality, and a seamless checkout process. The project demonstrates my ability to build scalable and responsive web applications, with a focus on performance, user experience, and modern development practices.
+                <p>I designed and developed a fully functional e-commerce website for a climbing clothing brand "Theory Climbing" from scratch using new technologies like Next.js, TypeScript, MongoDB, and Paypal's API. I have been a devoted climber for 6 years now and my friends and I have always wanted to create a climbing related clothing brand. Using my knowledge from University, I thought it would be a great idea to try and build a website myself. The website features a dynamic and fully responsive product page, secure user authentication, shopping cart functionality, and a seamless checkout process. The project demonstrates my ability to build scalable and responsive web applications, with a focus on performance, user experience, and modern development practices.</p>
                 <li>Next.Js, TypeScript, MongoDB, API, Github, Vercel, MongoDB Atlas</li>
+            <video class="proj1inside" width="200px" height="400px" controls>
+                <source src="./additional/proj1-demo.mov">
+            </video>
+            </div>
+
+            <div class="proj1-demo-box" onclick="toggleVideo()">
+                Click Here to see the 'checkout' demo video
+            </div>
+            <div class="proj1-demo-container">
+                <video class="proj1-demo" width="200px" height="400px" controls>
+                    <source src="./additional/proj1-demo.mov">
+                </video>
             </div>
         </div>
+
+        <script>
+            function toggleVideo() {
+                var videoContainer = document.querySelector('.proj1-demo-container');
+                var demoBox = document.querySelector('.proj1-demo-box');
+
+                if (videoContainer.style.display === 'none') {
+                    videoContainer.style.display = 'flex';
+                    demoBox.style.display = 'none';
+                    
+                } else {
+                    videoContainer.style.display = 'none';
+                    demoBox.style.display = 'flex';
+                }
+            }
+        </script>
+
 
         <div class="projects-list">
             <div class="proj-2-img">
