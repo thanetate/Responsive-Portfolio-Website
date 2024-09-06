@@ -370,29 +370,37 @@ body {
 	.proj1-demo-box {
 		display: none;
 	}
-	.proj1-demo-container {
+	.proj1inside {
 		display: none;
 	}
+	.proj1-demo-container {
+		position: relative;
+		display: flex;
+		width: 300px;
+		height: 560px;
+		right: 0;
+		margin-right: 30px;
+		border-width: 4px;
+		border-color: #44475a;
+		border-radius: 4px;
+		padding: 10px;
+		background-color: #44475a;
+		color: #f8f8f2;
+		font-size: 10px;
+		line-height: 1.8;
+	}
+	.proj1-demo {
+		border-radius: 4px;
+		width: 300px;
+		height: auto;
+	}
 	.projects .project-1 {
-		width: auto;
-		height: 520px;
+		width: 80vw;
+		height: 560px;
+		margin-bottom: 20px;
 	}
 	.projects .project-1 p {
 		flex: 1;
-		margin-right: 280px;
-	}
-	.project-1 li {
-		margin-right: 280px;
-	}
-	.proj1inside {
-		width: auto;
-		height: 500px;
-
-		border-radius: 4px;
-		position: absolute;
-		top: 140px;
-		right: 0;
-		margin-right: 50px;
 	}
 }
 @media only screen and (min-width: 1600px) {
