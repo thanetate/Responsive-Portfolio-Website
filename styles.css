@@ -9,6 +9,7 @@ body {
     background-color: #f2f0ef;
     margin: 0;
     padding: 0;
+    color: black;
 }
 
 /*Phone View*/
@@ -188,7 +189,7 @@ body {
     border-style: none;
     cursor: pointer;
     z-index: 10;
-  
+    color: black;
 }
 .p1 {
     border-radius: 4px;
