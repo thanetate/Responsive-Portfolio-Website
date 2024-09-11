@@ -1,207 +1,198 @@
-
-<!-- Ideas for Improvements -->
-<!--
-    1. add { } and change colors accordingly
-    2. use js to make typing affect
-    3. Fix Responsiveness
--->
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
-    <script src="./script.js"></script>
     <title>Thane Tate</title>
 </head>
 <body>
+    <section class="navbar">
+        <div class="nav-container">
+            <a href="https://github.com/thanetate" class="github">Github</a>
+            <a href="https://www.linkedin.com/in/thane-tate-940302227/" class="linkedin">Linked In</a>
+            <a href="./additional/ThaneTate8.pdf" class="resume">Resume</a>
+            <h3 class="name">Thane</h3>
+        </div>
+        <!-- Need to add github/linkedin icons here -->
+    </section>
 
-<!-- Top Right Links -->
-    <section class="NavBarLinks">
-        <div class="nb-container">
-            <div class="github">
-            <a class="github-href" href="https://github.com/thanetate">
-                    <img class="github-img" src="./images/new-github.svg" alt="Github logo image">
-            </a>
+    <section class="intro">
+        <div class="intro-container">
+            <h3 class="line1">Hi, my name is Thane Tate</h3>
+            <h4 class="line2">I am a Software Engineer ツ</h6>
+                <!-- Add smiley face -->
+            <p class="paragraph">I am an aspiring full-stack software engineer based in Dallas, TX. I am currently a Computer Science student at the University of North Texas seeking internships to gain more experience in Software Development.</p>
+        <!-- Add a css arrow animation here for iphone display -->
+            <div class="arrow animated bounce"></div>
+    </div>
+    </section>
+
+    <section class="project">
+        <div class="project-container">
+            <div class="project-titles">
+                <button class="p1" data-target="proj1">Project 1</button>
+                <button class="p2" data-target="proj2">Project 2</button>
+                <button class="p3" data-target="proj3">Project 3</button>
             </div>
-            <div class="linkedin">
-                <a class="linkedin-href" href="https://linkedin.com/in/thane-tate-940302227/">
-                    <img class="linkedin-img" src="./images/new-linkedin.svg" alt="LinkedIn logo image">
-                </a>
+            
+            <div id="proj1" class="project1">
+                <video src="./additional/theorydemo.mov" class="demovid" controls></video>
+                <p class="paragraph">
+                    I designed and developed a fully functional e-commerce website for a climbing clothing brand "Theory Climbing" from scratch using new technologies like Next.js, TypeScript, MongoDB, and Paypal's API. 
+                    I have been a devoted climber for 6 years now and my friends and I have always wanted to create a climbing related clothing brand. Using my knowledge from University, I thought it would be a great idea to try and build a website myself. 
+                    The website features a dynamic and fully responsive product page, secure user authentication, shopping cart functionality, and a seamless checkout process. The project demonstrates my ability to build scalable and responsive web applications, with a focus on performance, user experience, and modern development practices.
+                </p>
+                <p class="technologies">
+                    Next.Js, TypeScript, MongoDB, Github, Vercel
+                </p>
+                <div class="buttons">
+                    <div class="github-container">
+                        <a href="https://github.com/thanetate/Clothing-Website">
+                            <img class="github-img" src="./images/new-github.svg" alt="Github Project #2 Logo" style="width: 25px; height: 25px;">
+                        </a>
+                    </div>
+                        <div class="test-container">
+                        <a href="https://theory-climbing.vercel.app/">
+                            <img class="export-img" src="./images/export.svg" alt="Export to website" style="width: 25px; height: 25px;">
+                        </a>
+                        </div>
+                </div>
+            </div>
+
+            <div id="proj2" class="project2">
+              
+                    <img src="./additional/libraryloandemo.png" alt="library loan demo picture" class="demopic">
+              
+                <p class="paragraph">
+                    Welcome to the Library Loan Management System (LLMS), a meticulously crafted software solution designed to improve the efficient handling of loans within local public libraries. Developed as a testament to my proficiency in C++ and Object-Oriented Programming (OOP), LLMS provides a robust framework for streamlining operations related to Patrons, Books, and Loans. This advanced system transcends traditional library management, offering a comprehensive approach to enhance the overall user experience. With a focus on clarity and organization in code, LLMS is tailored for seamless operation within the Mac OS environment. Discover LLMS, a project that goes beyond academic endeavors, showcasing my dedication to practical and impactful software development solutions.
+                </p>
+                <p class="technologies">
+                    C++, MakeFile, Git / Github, Agile Methodologies
+                </p>
+                <div class="github-container">
+                    <a href="https://github.com/thanetate/Clothing-Website">
+                        <img class="github-img" src="./images/new-github.svg" alt="Github Project #2 Logo" style="width: 25px; height: 25px;">
+                    </a>
+                </div>
+            </div>
+
+            <div id="proj3" class="project3">
+                <img src="./additional/shelldemopic.png" alt="shell features demo picture" class="demopic">
+
+                <p class="paragraph">
+                    The CSCE 3600 Shell Project is a command-line interpreter developed in C, designed to emulate essential shell functionalities and provide an interactive environment for executing user commands. This project integrates core features such as directory navigation, command execution, and PATH environment variable management, along with the ability to process batch files. Emphasizing dynamic memory management and robust error handling, the shell demonstrates practical skills in systems programming and offers a solid foundation for understanding Unix-like shell operations. This project highlights my commitment to practical software development and showcases my proficiency in creating efficient, reliable command-line tools.
+                </p>
+                <p class="technologies">
+                    C, GNU Make, Github
+                </p>
+                <div class="buttons">
+                    <div class="github-container">
+                        <a href="https://github.com/thanetate/Clothing-Website">
+                            <img class="github-img" src="./images/new-github.svg" alt="Github Project #2 Logo" style="width: 25px; height: 25px;">
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-<!-- Introduction -->
-<section class="main">
-    <div class="main-container">
-        <div class="new-intro">
-            <h2>Hi, my name is</h2>
-        </div>
-        <div class="name">
-            <h1>Thane Tate</h1>
-        </div>
-        <div class="intro">
-            <h2>
-                <img src="./images/chevron-right.svg" alt="" style="width: 15px; height: 15px;">
-                Software Engineer
-            </h2>
-        </div>
-        <br>
-        <div class="summary">
-            <p>I am an aspiring full-stack software engineer based in Dallas, TX. I am currently a Computer Science student at the University of North Texas seeking internships to gain more experience in Software Development.</p>
-        </div>
-        <a class="resume-btn" href="./additional/ThaneTate8.pdf" target="_blank">
-            Resume
-        </a>
-        <div class="arrow"></div>
-        <div class="profile-pic">
-            <img src="./additional/profile3.png" alt="profile-picture" style="width: 300px; height: auto">
-        </div>
-    </div>
-</section>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Get all buttons and project sections
+    const buttons = document.querySelectorAll('.project-titles button'); // Selects all buttons within .project-titles
+    const projects = document.querySelectorAll('.project1, .project2, .project3'); // Selects all project sections
 
-
-<!-- Projects -->
-<section class="projects">
-    <div class="projects-title">
-        <h2>
-            <img src="./images/chevron-right.svg" alt="" style="width: 15px; height: 15px;">
-            Projects
-        </h2>
-    </div>
-        <div class="projects-list">  
-            <div class="proj-1-img">
-                <div class="github-container">
-                <a href="https://github.com/thanetate/Clothing-Website">
-                    <img class="github-img" src="./images/new-github.svg" alt="Github Project #2 Logo">
-                </a>
-                </div>
-                <div class="test-container">
-                <a href="https://theory-climbing.vercel.app/">
-                    <img class="export-img" src="./images/export.svg" alt="Export to website" style="width: 25px; height: 25px;">
-                </a>
-                </div>
-                <p> Climbing Apparel Store</p>
-            </div>
-        </div>
-
-        <div class="projects-box">
-            <div class="project-1">
-                <div class="proj-1-redirection-container">
-                </div>
-                <p>I designed and developed a fully functional e-commerce website for a climbing clothing brand "Theory Climbing" from scratch using new technologies like Next.js, TypeScript, MongoDB, and Paypal's API. I have been a devoted climber for 6 years now and my friends and I have always wanted to create a climbing related clothing brand. Using my knowledge from University, I thought it would be a great idea to try and build a website myself. The website features a dynamic and fully responsive product page, secure user authentication, shopping cart functionality, and a seamless checkout process. The project demonstrates my ability to build scalable and responsive web applications, with a focus on performance, user experience, and modern development practices.</p>
-                <li>Next.Js, TypeScript, MongoDB, API, Github, Vercel, MongoDB Atlas</li>
-            <video class="proj1inside" width="200px" height="400px" controls>
-                <source src="./additional/proj1-demo.mov">
-            </video>
-            </div>
-
-            <div class="proj1-demo-box" onclick="toggleVideo()">
-                Click Here to see the 'checkout' demo video
-            </div>
-            <div class="proj1-demo-container">
-                <video class="proj1-demo" width="200px" height="400px" controls>
-                    <source src="./additional/proj1-demo.mov">
-                </video>
-            </div>
-        </div>
-
-        <script>
-            function toggleVideo() {
-                var videoContainer = document.querySelector('.proj1-demo-container');
-                var demoBox = document.querySelector('.proj1-demo-box');
-
-                if (videoContainer.style.display === 'none') {
-                    videoContainer.style.display = 'flex';
-                    demoBox.style.display = 'none';
-                    
-                } else {
-                    videoContainer.style.display = 'none';
-                    demoBox.style.display = 'flex';
-                }
-            }
-        </script>
-
-
-        <div class="projects-list">
-            <div class="proj-2-img">
-                <a href="https://github.com/thanetate/LLMS">
-                    <img class = "github-img" src="./images/new-github.svg" alt="Github Project #2 Logo">
-                </a>
-                <p>Library Loan Management System</p>
-            </div>
-        </div>
-
-        <div class="projects-box">
-            <div class="project-2">
-                Welcome to the Library Loan Management System (LLMS), a meticulously crafted software solution designed to improve the efficient handling of loans within local public libraries. Developed as a testament to my proficiency in C++ and Object-Oriented Programming (OOP), LLMS provides a robust framework for streamlining operations related to Patrons, Books, and Loans. This advanced system transcends traditional library management, offering a comprehensive approach to enhance the overall user experience. With a focus on clarity and organization in code, LLMS is tailored for seamless operation within the Mac OS environment. Discover LLMS, a project that goes beyond academic endeavors, showcasing my dedication to practical and impactful software development solutions.
-        
-                <li>C++, makefile, Github</li>
-            </div>
-        </div>
-        
-        <div class="projects-list">
-            <div class="proj-3-img">
-                <a href="https://github.com/thanetate/Shell-Project">
-                    <img class = "github-img" src="./images/new-github.svg" alt="Github Project #2 Logo">
-                </a>
-                <p>Shell Project</p>
-            </div>
-        </div>
-
-        <div class="projects-box">
-            <div class="project-3">
-                The CSCE 3600 Shell Project is a command-line interpreter developed in C, designed to emulate essential shell functionalities and provide an interactive environment for executing user commands. This project integrates core features such as directory navigation, command execution, and PATH environment variable management, along with the ability to process batch files. Emphasizing dynamic memory management and robust error handling, the shell demonstrates practical skills in systems programming and offers a solid foundation for understanding Unix-like shell operations. This project highlights my commitment to practical software development and showcases my proficiency in creating efficient, reliable command-line tools.
+    // Add click event listener to each button
+    buttons.forEach(button => {
+        button.addEventListener('click', function() {
+            // Get target project id from button's data-target attribute
+            const targetId = this.getAttribute('data-target');
             
-                <li>C, GNU Make, Github</li> </div>
+            // Hide all projects
+            projects.forEach(project => {
+                project.style.display = 'none';
+            });
+
+            // Show the target project
+            const targetProject = document.getElementById(targetId);
+            if (targetProject) {
+                targetProject.style.display = 'block';
+            }
+        });
+    });
+
+    // Optional: Show the first project by default
+    if (projects.length > 0) {
+        projects[0].style.display = 'block';
+    }
+});
+</script>
+
+
+    <section class="education">
+        <div class="education-container">
+            <h2 class="school">University of North Texas</h2>
+            <h3 class="degree">Bachelor of Science in Computer Science, Minor in Mathematics.</h3>
+            <h3 class="graduation">2026</h3>
+            <h3 class="gpa">GPA: 3.5</h3>
         </div>
-    </div>
-    <!-- Add here -->
-       
-</section>
+    </section>
 
-<!--Education Section-->
-<section class="education">
-    <div class="education-title">
-        <h2>
-            <img src="./images/chevron-right.svg" alt="" style="width: 15px; height: 15px;">
-            Education
-        </h2>
-    </div>   
-    <div class="edu-p">
-        <div class="edu-logo">
-            <img src="./images/unt2.png" alt="UNT logo">
+    <section class="education2">
+        <img src="./images/newunt.png" class="unt-img" alt="unt image">
+        <div class="education-container2">
+            <h2 class="school">University of North Texas</h2>
+            <h3 class="degree">Bachelor of Science in Computer Science, Minor in Mathematics.</h3>
+            <h3 class="graduation">2026</h3>
+            <h3 class="gpa">GPA: 3.5</h3>
         </div>
-        <p class="edu-school">
-           University of North Texas   
-        </p>
-        <p class="edu-date">Expected Graduation Date : 2026</p>
-        <p class="edu-certificates">Bachelor of Science in Computer Science, Minor in Mathematics.</p>
-    </div>
-</section>
+    </section>
 
-<!--
-<section class="certificates">
-    <div class="certificates-p">
-        <p class="cp">Undergraduate Academic Certificate In Security From the University of North Texas</p>
-    </div>
-</section>
--->
+    <section class="lang/technologies">
+        <div class="lang-container">
+            <p>Programming Lanuages</p>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>C / C++</li>
+            <li>HTML/CSS</li>
 
-<!-- Languages -->
-<section class="languages">
-    <div class="lang-title">
-        <h2>
-            <img src="./images/chevron-right.svg" alt="" style="width: 15px; height: 15px;">
-            Languages
-        </h2>
+            <p>Frameworks</p>
+            <li>Next.Js</li>
+           
+            <p>Database</p>
+            <li>MongoDB</li>
+            
+            <p>Developer Tools</p>
+            <li>Scrum/Agile Methodologies</li>
+            <li>Git / Github</li>
+            <li>Vercel</li>
+        </div>
+    </section>
 
-    </div>
-  <div class="lang-box">
-    <p> JavaScript, Next.Js, MongoDB, TypeScript, C++, C, HTML, CSS</p>
-  </div>
-</section>
+    <section class="lang/technologies2">
+        <div class="lang-container2">
+            <div class="block1">
+            <p>Programming Lanuages</p>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>C / C++</li>
+            <li>HTML/CSS</li>
+            </div>
+
+            <div class="block2">
+            <p>Frameworks / Database</p>
+            <li>Next.Js</li>
+            <li>MongoDB</li>
+            </div>
+            
+            <div class="block3">
+            <p>Developer Tools</p>
+            <li>Scrum/Agile Methodologies</li>
+            <li>Git / Github</li>
+            <li>Vercel</li>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
