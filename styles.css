@@ -368,8 +368,17 @@ body {
     }
     .test-container {
         position: absolute;
-        bottom: 9px;
+        border-style: none;
     }
+    .test-container img {
+        position: relative;
+        margin-top: 3px;
+        left: -10px;
+    }
+    .github-container img{
+        border-style: none;
+    }
+   
     /*Add icons for github linkedin*/
 }
 @media only screen and (max-width: 650px) {
