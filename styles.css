@@ -343,7 +343,7 @@ body {
 #proj1 {
     display: block;
 }
-.profile-img {
+.newprofile-img {
     display: none;
 }
 
@@ -730,7 +730,9 @@ body {
         background-color: #d9d9d9;
         border-radius: 4px;
     }
-    .profile-img {
+    .newprofile-img img {
+        border-color: red;
+        border-style: double;
         display: flex;
         width: 300px;
         height: auto;
