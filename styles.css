@@ -731,8 +731,6 @@ body {
         border-radius: 4px;
     }
     .newprofile-img {
-        border-color: red;
-        border-style: double;
         display: flex;
         width: 300px;
         height: auto;
