@@ -151,7 +151,7 @@ body {
   
   .arrow {
     position: absolute;
-    bottom: 150px;
+    top: 750px;
     left: 50px;
     margin-left: -20px;
     width: 25px;
@@ -363,7 +363,7 @@ body {
         position: relative;
     }
     .arrow {
-        bottom: 100px;
+        top: 600px;
     }
     .test-container {
         position: absolute;
@@ -433,6 +433,9 @@ body {
     }
     .slide_1 {
         display: none !important;
+    }
+    .arrow {
+        top: 600px;
     }
 }
 @media only screen and (max-width: 650px) {
@@ -567,6 +570,9 @@ body {
     }
     .lang-container {
         width: 320px;
+    }
+    .arrow {
+        top: 750px;
     }
     
 }
