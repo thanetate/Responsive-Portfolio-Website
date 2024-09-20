@@ -730,12 +730,17 @@ body {
         background-color: #d9d9d9;
         border-radius: 4px;
     }
-    .newprofile-img img {
+    .newprofile-img {
         border-color: red;
         border-style: double;
         display: flex;
         width: 300px;
         height: auto;
+        position: absolute;
+        right: 630px;
+        margin-top: -142px;
+    }
+    .newprofile-img img {
         position: absolute;
         right: 630px;
         margin-top: -142px;
