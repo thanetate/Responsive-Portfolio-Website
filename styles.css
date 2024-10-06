@@ -265,51 +265,26 @@ transition: 1s all ease-out;
     margin-top: 50px;
     font-size: small;
 }
-.github-img {
-    border-style: solid;
-    border-color: black;
-	border-radius: 4px;
-	padding: 4px 4px;
-}
-.project1 .github-img {
+.github-img img {
     position: relative;
-    bottom: -10px;
-}
-.project2 .github-img {
-    position: relative;
-    bottom: 10px;
-}
-.project3 .github-img {
-    position: relative;
-    bottom: 10px;
+    bottom: 0px;
 }
 .github-container img{
     width: 25px;
     height: 25px;
     transition: transform 0.3s ease-in-out;
 }
-.test-container img {
-    transition: transform 0.3s ease-in-out;
-}
-.test-container {
-    border-style: solid;
-    border-color: black;
-    border-radius: 4px;
-	padding: 4px 4px;
-    width: 25px;
-    height: 25px;
-    position: relative;
-    bottom: 33px;
-    left: 50px;
-    transition: transform 0.3s ease-in-out;
-}
-.github-container:hover img {
-	transform: scale(1.1);
+.export-img {
+    position: absolute;
+    margin-left: 40px;
+    margin-top: -30px;
 }
 .test-container:hover  {
 	transform: scale(1.1);
 }
-
+.github-container:hover img {
+	transform: scale(1.1);
+}
 /*Education*/
 .education-container {
     background-color: white;
@@ -393,7 +368,9 @@ transition: 1s all ease-out;
     justify-content: center;
     padding: 10px; 
     gap: 10px;
+    right: 20px;
 }
+
 .slide-js img, .slide-ts img, .slide-infisical img{
     border-radius: 4px;
 }
@@ -416,18 +393,6 @@ transition: 1s all ease-out;
     .arrow {
         top: 600px;
     }
-    .test-container {
-        position: absolute;
-        border-style: none;
-    }
-    .test-container img {
-        position: relative;
-        margin-top: 3px;
-        left: -10px;
-    }
-    .github-container img{
-        border-style: none;
-    }
 }
 @media only screen and (min-width: 480px) {
     .arrow {
@@ -442,23 +407,6 @@ transition: 1s all ease-out;
     .project-container {
         height: auto;
     }
-    .project1 .test-container {
-        position: relative;
-        bottom: -2px;
-        left: 45px;
-    }
-    .project1 .github-img {
-        position: relative;
-        bottom: -45px;
-    }
-    .project2 .github-container {
-        position: relative;
-        bottom: -10px;
-    }
-    .project3 .github-container {
-        position: relative;
-        bottom: -10px;
-    }
     .education-container {
         margin-left: 15px;
         margin-right: 15px;
@@ -467,7 +415,6 @@ transition: 1s all ease-out;
         margin-left: 15px;
         margin-right: 15px;
     }
-
 }
 
 /*Ipad*/
@@ -561,7 +508,7 @@ transition: 1s all ease-out;
         top: -40px;
         right: 0;
         margin-top: 140px;
-        height: 100vh;
+        height: 85vh;        
     }
     .demovid {
         width: 580px;
@@ -620,6 +567,7 @@ transition: 1s all ease-out;
         margin: 0 0;
         margin-left: 20px;
         width: 370px;
+        margin-bottom: 25px;
     }
     .copyright {
         display: none;
@@ -690,7 +638,6 @@ transition: 1s all ease-out;
 @media only screen and (min-width: 1600px) {
     .project-container {
         width: 650px;
-        height: 85vh;
         margin-right: 15px;
     }
     .education-container {
@@ -762,6 +709,5 @@ transition: 1s all ease-out;
         max-width: 740px;
         margin-left: 80px;
         width: 740px;
-        margin-bottom: 20px;
     }
 }
