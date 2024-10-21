@@ -1,177 +1,236 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-    <title>Thane Tate</title>
-</head>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <title>Thane Tate</title>
+    </head>
 <body>
-    <section class="navbar">
-        <div class="nav-container">
-            <a href="https://github.com/thanetate" class="github">Github</a>
-            <a href="https://www.linkedin.com/in/thane-tate-940302227/" class="linkedin">Linked In</a>
-            <h3 class="name">Thane</h3>
+    <section class="NavBar">
+        <div class="container">
+            <a href="mailto:thanetate1@gmail.com" class="github">email</a>
+            <div class="name">Thane Tate</div>
         </div>
     </section>
 
-    <section class="intro">
-        <div class="intro-container">
+    <section class="Header">
+        <div class="container">
+            <img class="profile" src="./additional/profile3.png" alt="profile picture" width="150px">
             <h3 class="line1">Hi, my name is Thane Tate</h3>
             <h4 class="line2">I am a Software Engineer ツ</h6>
-                <!-- Add smiley face -->
-            <img class="newprofile-img" src="./additional/profile3.png" alt="profile picture" width="300px">
-            <p class="paragraph">I am an aspiring full-stack software engineer based in Dallas, TX. I am currently a Computer Science student at the University of North Texas seeking internships to gain more experience in Software Development.</p>
-          <div class="arrow animated bounce"></div>
+            <p class="paragraph">Computer Science major at the University of North Texas, based in Dallas, TX. Currently interested in full-stack development.</p>
+            <div class="arrow animated bounce"></div>
+        </div>
+    </section>
+    
+    <section class="About">
+        <div class="container">
+            <div class="title">About Me</div>
+            <div class="card">
+                <div class="title">Experience</div>
+                <img src="./images/fi-icon.png" alt="Fisher Investments Icon" height="35px">
+                <p>2025 Incoming SWE Intern @ Fisher Investments</p>
+                <img src="./images/unt-icon.webp" alt="Unt Icon" height="35px">
+                <p>2024 HackUNT</p>
+            </div>
+            <div class="card2">
+                <div class="education">
+                   <img src="./images/newunt.png" alt="UNT Logo">
+                   <p>Computer Science major at the University of North Texas</p>
+                </div>
+                <img src="./images/climbing.jpg" alt="Climbing Picture" class="climbing">
+            </div>
         </div>
     </section>
 
-    <section class="project">
-        <div class="project-container">
-            <div class="project-titles">
-                <button class="p1" data-target="proj1">Project 1</button>
-                <button class="p2" data-target="proj2">Project 2</button>
-                <button class="p3" data-target="proj3">Project 3</button>
-            </div>
-            
-            <div id="proj1" class="project1">
-                <video src="./additional/theorydemo.mov" class="demovid" controls></video>
-                <p class="paragraph">
-                    For my most recent project, I designed and developed a fully functional e-commerce website for "Theory Climbing," 
-                    a clothing brand inspired by my six years of climbing experience and a shared vision with friends. Leveraging my 
-                    university education, I took on the challenge of creating a robust and user-friendly online store from scratch. 
-                    The website boasts a dynamic, fully responsive product page, secure user authentication, shopping cart functionality, 
-                    and a seamless checkout process. By integrating APIs for secure transactions and ensuring fast performance, 
-                    I demonstrated my ability to build scalable web applications with a keen focus on modern development practices, user experience, and overall performance.
-                </p>
-                <p class="technologies">
-                    Next.Js, TypeScript, MongoDB, REST API, Github, Vercel
-                </p>
-                <div class="buttons">
-                    <div class="github-container">
-                        <a href="https://github.com/thanetate/Clothing-Website">
-                            <img class="github-img" src="./images/new-github.svg" alt="Github Project #2 Logo" style="width: 25px; height: 25px;">
-                        </a>
-                    </div>
-                        <div class="test-container">
-                            <a href="https://theory-climbing.vercel.app/">
-                                <img class="export-img" src="./images/export.svg" alt="Export to website" style="width: 25px; height: 25px;">
+    <section class="Projects">
+        <div class="container">
+            <div class="title">Projects</div>
+            <div class="card">
+                <div class="project-titles">
+                    <button class="p1" data-target="proj1">Project 1</button>
+                    <button class="p2" data-target="proj2">Project 2</button>
+                    <button class="p3" data-target="proj3">Project 3</button>
+                </div>
+                <div id="proj1" class="project1">
+                    <video src="./additional/theorydemo.mov" class="demovid" controls></video>
+                    <p class="paragraph">
+                        For my most recent project, I designed and developed a fully functional e-commerce website for
+                        "Theory Climbing,"
+                        a clothing brand inspired by my six years of climbing experience and a shared vision with friends.
+                        Leveraging my
+                        university education, I took on the challenge of creating a robust and user-friendly online store
+                        from scratch.
+                        The website boasts a dynamic, fully responsive product page, secure user authentication, shopping
+                        cart functionality,
+                        and a seamless checkout process. By integrating APIs for secure transactions and ensuring fast
+                        performance,
+                        I demonstrated my ability to build scalable web applications with a keen focus on modern development
+                        practices, user experience, and overall performance.
+                    </p>
+                    <p class="technologies">
+                        Next.js, MongoDB, Vercel
+                    </p>
+                    <div class="buttons">
+                        <div class="github-container">
+                            <a href="https://github.com/thanetate/Clothing-Website">
+                                <img class="github-img" src="./images/new-github.svg" alt="Github Project #2 Logo"
+                                    style="width: 25px; height: 25px;">
                             </a>
                         </div>
+                        <div class="test-container">
+                            <a href="https://theory-climbing.vercel.app/">
+                                <img class="export-img" src="./images/export.svg" alt="Export to website"
+                                    style="width: 25px; height: 25px;">
+                            </a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-
-            <div id="proj2" class="project2">
-              
+    
+                <div id="proj2" class="project2 hidden">
+    
                     <img src="./additional/libraryloandemo.png" alt="library loan demo picture" class="demopic">
-              
-                <p class="paragraph">
-                    Welcome to the Library Loan Management System (LLMS), a meticulously crafted software solution designed to improve the efficient handling of loans within local public libraries. Developed as a testament to my proficiency in C++ and Object-Oriented Programming (OOP), LLMS provides a robust framework for streamlining operations related to Patrons, Books, and Loans. This advanced system transcends traditional library management, offering a comprehensive approach to enhance the overall user experience. With a focus on clarity and organization in code, LLMS is tailored for seamless operation within the Mac OS environment. Discover LLMS, a project that goes beyond academic endeavors, showcasing my dedication to practical and impactful software development solutions.
-                </p>
-                <p class="technologies">
-                    C++, MakeFile, Agile Methodologies
-                </p>
-                <div class="github-container">
-                    <a href="https://github.com/thanetate/LLMS">
-                        <img class="github-img" src="./images/new-github.svg" alt="Github Project #2 Logo" style="width: 25px; height: 25px;">
-                    </a>
-                </div>
-            </div>
-
-            <div id="proj3" class="project3">
-                <img src="./additional/shelldemopic.png" alt="shell features demo picture" class="demopic">
-
-                <p class="paragraph">
-                    The CSCE 3600 Shell Project is a command-line interpreter developed in C, designed to emulate essential shell functionalities and provide an interactive environment for executing user commands. This project integrates core features such as directory navigation, command execution, and PATH environment variable management, along with the ability to process batch files. Emphasizing dynamic memory management and robust error handling, the shell demonstrates practical skills in systems programming and offers a solid foundation for understanding Unix-like shell operations. This project highlights my commitment to practical software development and showcases my proficiency in creating efficient, reliable command-line tools.
-                </p>
-                <p class="technologies">
-                    C, GNU Make, Github
-                </p>
-                <div class="buttons">
+    
+                    <p class="paragraph">
+                        Welcome to the Library Loan Management System (LLMS), a meticulously crafted software solution
+                        designed to improve the efficient handling of loans within local public libraries. Developed as a
+                        testament to my proficiency in C++ and Object-Oriented Programming (OOP), LLMS provides a robust
+                        framework for streamlining operations related to Patrons, Books, and Loans. This advanced system
+                        transcends traditional library management, offering a comprehensive approach to enhance the overall
+                        user experience. With a focus on clarity and organization in code, LLMS is tailored for seamless
+                        operation within the Mac OS environment. Discover LLMS, a project that goes beyond academic
+                        endeavors, showcasing my dedication to practical and impactful software development solutions.
+                    </p>
+                    <p class="technologies">
+                        C++, MakeFile, Agile Methodologies
+                    </p>
                     <div class="github-container">
-                        <a href="https://github.com/thanetate/Shell-Project">
-                            <img class="github-img" src="./images/new-github.svg" alt="Github Project #2 Logo" style="width: 25px; height: 25px;">
+                        <a href="https://github.com/thanetate/LLMS">
+                            <img class="github-img" src="./images/new-github.svg" alt="Github Project #2 Logo"
+                                style="width: 25px; height: 25px;">
                         </a>
                     </div>
                 </div>
+    
+                <div id="proj3" class="project3 hidden">
+                    <img src="./additional/shelldemopic.png" alt="shell features demo picture" class="demopic">
+    
+                    <p class="paragraph">
+                        The CSCE 3600 Shell Project is a command-line interpreter developed in C, designed to emulate
+                        essential shell functionalities and provide an interactive environment for executing user commands.
+                        This project integrates core features such as directory navigation, command execution, and PATH
+                        environment variable management, along with the ability to process batch files. Emphasizing dynamic
+                        memory management and robust error handling, the shell demonstrates practical skills in systems
+                        programming and offers a solid foundation for understanding Unix-like shell operations. This project
+                        highlights my commitment to practical software development and showcases my proficiency in creating
+                        efficient, reliable command-line tools.
+                    </p>
+                    <p class="technologies">
+                        C, GNU Make, Github
+                    </p>
+                    <div class="buttons">
+                        <div class="github-container">
+                            <a href="https://github.com/thanetate/Shell-Project">
+                                <img class="github-img" src="./images/new-github.svg" alt="Github Project #2 Logo"
+                                    style="width: 25px; height: 25px;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          // Get all buttons and project sections
+          const buttons = document.querySelectorAll('.project-titles button'); // Selects all buttons within .project-titles
+          const projects = document.querySelectorAll('.project1, .project2, .project3'); // Selects all project sections
+      
+          // Add click event listener to each button
+          buttons.forEach(button => {
+              button.addEventListener('click', function() {
+                  // Get target project id from button's data-target attribute
+                  const targetId = this.getAttribute('data-target');
+                  
+                  // Hide all projects
+                  projects.forEach(project => {
+                      project.style.display = 'none';
+                  });
+      
+                  // Show the target project
+                  const targetProject = document.getElementById(targetId);
+                  if (targetProject) {
+                      targetProject.style.display = 'block';
+                  }
+              });
+          });
+      
+          // Optional: Show the first project by default
+          if (projects.length > 0) {
+              projects[0].style.display = 'block';
+          }
+      });
+    </script>
+
+    <section class="Socials">
+        <div class="title">Socials</div>
+        <div class="socials-card">
+        <div class="card">
+            <div class="linkedin">
+                <a href="https://www.linkedin.com/in/thanetate" class="linkedin-a">
+                    <img src="./images/linkedin.svg" alt="Linkedin Logo">
+                    <p class="line1">Linkedin - lets connect!</p>
+                    <p class="line2">linkedin.com</p>
+                </a>
+            </div>
+            <div class="instagram">
+                <a href="https://www.instagram.com/thane.tate/" class="instagram-a">
+                    <img src="./images/insta.svg" alt="Instagram Logo">
+                    <p class="line1">Instagram - join me!</p>
+                    <p class="line2">Instagram.com</p>
+                </a>
             </div>
         </div>
-    </section>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    // Get all buttons and project sections
-    const buttons = document.querySelectorAll('.project-titles button'); // Selects all buttons within .project-titles
-    const projects = document.querySelectorAll('.project1, .project2, .project3'); // Selects all project sections
-
-    // Add click event listener to each button
-    buttons.forEach(button => {
-        button.addEventListener('click', function() {
-            // Get target project id from button's data-target attribute
-            const targetId = this.getAttribute('data-target');
-            
-            // Hide all projects
-            projects.forEach(project => {
-                project.style.display = 'none';
-            });
-
-            // Show the target project
-            const targetProject = document.getElementById(targetId);
-            if (targetProject) {
-                targetProject.style.display = 'block';
-            }
-        });
-    });
-
-    // Optional: Show the first project by default
-    if (projects.length > 0) {
-        projects[0].style.display = 'block';
-    }
-});
-</script>
-
-
-    <section class="education">
-        <div class="education-container">
-            <h2 class="school"><img src="./images/untwordmark.png" alt="" width="250px"></h2>
-            <h3 class="degree">Bachelor of Science in Computer Science, Minor in Mathematics.</h3>
-            <h3 class="graduation">2026</h3>
-            <h3 class="gpa">GPA: 3.5</h3>
-        </div>
-    </section>
-
-    <section class="education2">
-        <img src="./images/newunt.png" class="unt-img" alt="UNT image">
-        <div class="education-container2">
-            <h2 class="school">University of North Texas</h2>
-            <h3 class="degree">Bachelor of Science in Computer Science, Minor in Mathematics.</h3>
-            <h3 class="graduation">2026</h3>
-            <h3 class="gpa">GPA: 3.5</h3>
-        </div>
-    </section>
-
-    <div class="swiper-container">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide slide-js"><img src="./images/JavaScript.svg" alt="" width="40px">JavaScript</div>
-            <div class="swiper-slide slide-ts"><img src="./images/TypeScript.svg" alt="" width="40px">TypeScript</div>
-            <div class="swiper-slide slide-cpp"><img src="./images/C++.svg" alt="" width="40px">C++</div>
-            <div class="swiper-slide slide-go"><img src="./images/go.png" alt="" height="40px">Golang</div>
-            <div class="swiper-slide slide-html"><img src="./images/Html.svg" alt="" width="40px">HTML</div>
-            <div class="swiper-slide slide-css"><img src="./images/CSS.svg" alt="" width="40px">CSS</div>
-            <div class="swiper-slide slide-nextjs"><img src="./images/next.png" alt="" width="40px">Next.js</div>
-            <div class="swiper-slide slide-react"><img src="./images/react.png" alt="" width="40px">React</div>
-            <div class="swiper-slide slide-react"><img src="./images/node.png" alt="" width="40px">Node.js</div>
-            <div class="swiper-slide slide-react"><img src="./images/express.svg" alt="" width="30px">Express</div>
-            <div class="swiper-slide slide-sql"><img src="./images/sql.png" alt="" width="40px">SQL</div>
-            <div class="swiper-slide slide-mongodb"><img src="./images/mongo.svg" alt="" width="40px">MongoDB</div>
-            <div class="swiper-slide slide-git"><img src="./images/git.png" alt="" width="40px">Git</div>
+        <div class="github">
+                <a class="github-img-container" href="https://github.com/thanetate">
+                    <img src="./images/github.svg" alt="Github Logo">
+                </a>
+                <a href="https://github.com/thanetate" class="github-title">My GitHub!</a>
+                <img src="https://ghchart.rshah.org/thanetate" alt="Thane Tate Github chart" class="githubcontributions"/>
         </div>
     </div>
+    </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="script.js"></script>
+    <section class="Tech">
+        <div class="Techtitle">
+            <div class="title">Tech Skills</div>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide-js"><img src="./images/JavaScript.svg" alt="" width="40px">JavaScript</div>
+                <div class="swiper-slide slide-ts"><img src="./images/TypeScript.svg" alt="" width="40px">TypeScript</div>
+                <div class="swiper-slide slide-cpp"><img src="./images/C++.svg" alt="" width="40px">C++</div>
+                <div class="swiper-slide slide-go"><img src="./images/go.png" alt="" height="40px">Golang</div>
+                <div class="swiper-slide slide-html"><img src="./images/Html.svg" alt="" width="40px">HTML</div>
+                <div class="swiper-slide slide-css"><img src="./images/CSS.svg" alt="" width="40px">CSS</div>
+                <div class="swiper-slide slide-nextjs"><img src="./images/next.png" alt="" width="40px">Next.js</div>
+                <div class="swiper-slide slide-react"><img src="./images/react.png" alt="" width="40px">React</div>
+                <div class="swiper-slide slide-react"><img src="./images/node.png" alt="" width="40px">Node.js</div>
+                <div class="swiper-slide slide-react"><img src="./images/express.svg" alt="" width="30px">Express</div>
+                <div class="swiper-slide slide-sql"><img src="./images/sql.png" alt="" width="40px">SQL</div>
+                <div class="swiper-slide slide-mongodb"><img src="./images/mongo.svg" alt="" width="40px">MongoDB</div>
+                <div class="swiper-slide slide-git"><img src="./images/git.png" alt="" width="40px">Git</div>
+            </div>
+        </div>
+    
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="script.js"></script>
+    </section>
 
-    <p class="copyright">© 2024 Thane Tate. All rights reserved.</p>
+    <section class="Footer">
+        <p class="copyright">© 2024 Thane Tate. All rights reserved.</p>
+    </section>
 </body>
 </html>
