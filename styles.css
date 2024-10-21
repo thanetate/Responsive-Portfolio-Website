@@ -605,6 +605,7 @@ body {
         max-width: 500px;
     }
     .About .card .title {
+        margin-left: -0px;
         font-size: large;
     }
     .About .card p {
