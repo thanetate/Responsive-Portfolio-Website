@@ -644,7 +644,7 @@ body {
     }
     .About .climbing {
         position: absolute;
-        right: 530px;
+        right: 540px;
         object-fit: cover;
         object-position: bottom;
         max-width: 220px;
