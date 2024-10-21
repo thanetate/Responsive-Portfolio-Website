@@ -284,6 +284,7 @@ body {
     background-color: white;
     padding: 5px;
     transition: transform 0.3s ease;
+    -webkit-tap-highlight-color: transparent;
 }
 .p1:hover {
     background-color: white;
@@ -294,6 +295,7 @@ body {
     background-color: white;
     padding: 5px;
     transition: transform 0.3s ease;
+    -webkit-tap-highlight-color: transparent;
 }
 .p2:hover {
     background-color: white;
@@ -304,6 +306,7 @@ body {
     background-color: white;
     padding: 5px;
     transition: transform 0.3s ease;
+    -webkit-tap-highlight-color: transparent;
 }
 .p3:hover {
     background-color: white;
